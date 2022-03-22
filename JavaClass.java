@@ -1,6 +1,8 @@
 package firstPrograminJava;
 
 import javax.swing.JOptionPane; // use for GUI
+
+import java.util.ArrayList;
 import java.util.Random; // use for random number
 import java.util.Scanner; // use for input
 
@@ -145,20 +147,58 @@ public class JavaClass {
 
       // 2D array start
       // String[][] cars = new String[3][3];
-      String[][] cars = {
-            { "Camaro", "Corvete", "Silverada" },
-            { "Mustang", "Ranger", "Ferari" },
-            { "Civic", "BMW", "Honda" }
-      };
-      for (int i = 0; i < cars.length; i++) {
-         System.out.println();
-         for (int j = 0; j < cars[i].length; j++) {
-            System.out.print(cars[i][j] + " ");
-         }
+      // String[][] cars = {
+      //       { "Camaro", "Corvete", "Silverada" },
+      //       { "Mustang", "Ranger", "Ferari" },
+      //       { "Civic", "BMW", "Honda" }
+      // };
+      // for (int i = 0; i < cars.length; i++) {
+      //    System.out.println();
+      //    for (int j = 0; j < cars[i].length; j++) {
+      //       System.out.print(cars[i][j] + " ");
+      //    }
 
-      }
-
+      // }
       // 2D array end
+
+
+      //ArrayList start
+      // ArrayList<String> food = new ArrayList<String>();
+      // food.add("Pizza");
+      // food.add("Hamburger");
+      // food.add("hotdog");
+
+      // food.set(0, "sushi");
+      // // food.remove(2);
+      // // food.clear();
+
+      // for(int i = 0; i<food.size();i++){
+      //    System.out.println(food.get(i));
+      // }
+      //ArrayList end
+
+
+      //2d ArrayList start
+      // ArrayList<ArrayList<String>> grocery = new ArrayList();
+
+      // ArrayList<String> bakeryList = new ArrayList<String>();
+      // bakeryList.add("pasta");
+      // bakeryList.add("bread");
+      // bakeryList.add("donuts");
+
+      // ArrayList<String> productList = new ArrayList<String>();
+      // productList.add("tomatoes");
+      // productList.add("zucchini");
+      // productList.add("peppers");
+
+      // grocery.add(bakeryList);
+      // grocery.add(productList);
+
+      
+      // System.out.println(grocery);
+
+      //2d ArrayList end
+
 
    }
 }
