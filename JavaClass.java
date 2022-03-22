@@ -75,27 +75,75 @@ public class JavaClass {
       // }
       // if statement end
 
-
       // while start
       // Scanner scanner = new Scanner(System.in);
       // String name = "";
       // while (name.isEmpty()) {
-      //    System.out.println("Enter your name");
-      //    name = scanner.nextLine();
+      // System.out.println("Enter your name");
+      // name = scanner.nextLine();
       // }
       // System.out.println("Hello " + name);
       // while end
 
-
       // do start
-   //    Scanner scanner = new Scanner(System.in);
-   //    String name = "";
-   //   do {
-   //       System.out.println("Enter your name");
-   //       name = scanner.nextLine();
-   //    }while (name.isEmpty()) 
-   //    System.out.println("Hello " + name);
+      // Scanner scanner = new Scanner(System.in);
+      // String name = "";
+      // do {
+      // System.out.println("Enter your name");
+      // name = scanner.nextLine();
+      // }while (name.isEmpty())
+      // System.out.println("Hello " + name);
       // do end
+
+      // for start
+      // for( int i = 0; i<= 10; i++){
+      // System.out.println(i);
+      // }
+      // for end
+
+      // nested start
+      // Scanner scanner = new Scanner(System.in);
+      // int rows;
+      // int columns;
+      // String symbol = "";
+
+      // System.out.println("Enter no of rows ");
+      // rows = scanner.nextInt();
+
+      // System.out.println("Enter no of columns ");
+      // columns = scanner.nextInt();
+
+      // System.out.println("Enter symbol ");
+      // symbol = scanner.next();
+
+      // for(int i =1; i<=rows; i++){
+      // System.out.println();
+      // for(int j = 1; j<=columns; j++){
+      // System.out.print(symbol);
+      // }
+
+      // }
+      // nested end
+
+      // array start
+      // 1st method
+      // String[] cars = {
+      // "BMW", "Honda","Civic"
+      // };
+      // System.out.println(cars[0]);
+
+      // 2nd method
+      // String[] cars = new String[3];
+      // cars[0] = "BMW";
+      // cars[1] = "Ferari";
+      // cars[1] = "Civic";
+
+      // for(int i = 0; i<=cars.length; i++){
+      // System.out.println(cars[i]);
+      // }
+      // array end
+
+
 
    }
 }
