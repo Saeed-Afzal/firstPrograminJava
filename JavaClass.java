@@ -143,7 +143,22 @@ public class JavaClass {
       // }
       // array end
 
+      // 2D array start
+      // String[][] cars = new String[3][3];
+      String[][] cars = {
+            { "Camaro", "Corvete", "Silverada" },
+            { "Mustang", "Ranger", "Ferari" },
+            { "Civic", "BMW", "Honda" }
+      };
+      for (int i = 0; i < cars.length; i++) {
+         System.out.println();
+         for (int j = 0; j < cars[i].length; j++) {
+            System.out.print(cars[i][j] + " ");
+         }
 
+      }
+
+      // 2D array end
 
    }
 }
