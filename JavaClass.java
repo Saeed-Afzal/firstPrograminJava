@@ -206,9 +206,24 @@ public class JavaClass {
 
       // overloaded method start
       // create same name of method but different parameters is called overloaded
-      int sum = add(1, 2, 3);
-      System.out.println(sum);
+      // int sum = add(1, 2, 3);
+      // System.out.println(sum);
       // overloaded method end
+
+      // printf start
+      // System.out.printf("%d THis is a string format", 123);
+      // String s = "Saeed";
+      // System.out.printf("Hello %s",s);
+      // System.out.printf("Hello %10s",s); //create space
+      // System.out.printf("Hello %-10s",s); //create space
+      // double d = 1000.2;
+      // System.out.printf("You have %f", d);
+      // System.out.printf("You have %.2f", d); //upto 2 decimal
+      // System.out.printf("You have %-20f", d);
+      // System.out.printf("You have %20f", d);
+      // System.out.printf("You have %,f", d);
+      // System.out.printf("You have %020f", d);
+      // printf end
 
    }
    // overloaded method start
