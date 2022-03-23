@@ -225,6 +225,15 @@ public class JavaClass {
       // System.out.printf("You have %020f", d);
       // printf end
 
+      // OOP intro start
+      // see MyCar 
+      // MyCar car1 = new MyCar();
+
+      // System.out.println(car1.make);
+      // car1.drive();
+      // mycar1.drive();
+      // OOP intro end
+
    }
    // overloaded method start
    // static int add( int x, int y){
@@ -236,3 +245,11 @@ public class JavaClass {
    // overloaded method end
 
 }
+// class MyCar {
+//    String make = "Honda";
+
+//    void drive() {
+//       System.out.println("You are driving");
+
+//    }
+// }
