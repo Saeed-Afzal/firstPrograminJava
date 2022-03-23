@@ -148,21 +148,20 @@ public class JavaClass {
       // 2D array start
       // String[][] cars = new String[3][3];
       // String[][] cars = {
-      //       { "Camaro", "Corvete", "Silverada" },
-      //       { "Mustang", "Ranger", "Ferari" },
-      //       { "Civic", "BMW", "Honda" }
+      // { "Camaro", "Corvete", "Silverada" },
+      // { "Mustang", "Ranger", "Ferari" },
+      // { "Civic", "BMW", "Honda" }
       // };
       // for (int i = 0; i < cars.length; i++) {
-      //    System.out.println();
-      //    for (int j = 0; j < cars[i].length; j++) {
-      //       System.out.print(cars[i][j] + " ");
-      //    }
+      // System.out.println();
+      // for (int j = 0; j < cars[i].length; j++) {
+      // System.out.print(cars[i][j] + " ");
+      // }
 
       // }
       // 2D array end
 
-
-      //ArrayList start
+      // ArrayList start
       // ArrayList<String> food = new ArrayList<String>();
       // food.add("Pizza");
       // food.add("Hamburger");
@@ -173,12 +172,11 @@ public class JavaClass {
       // // food.clear();
 
       // for(int i = 0; i<food.size();i++){
-      //    System.out.println(food.get(i));
+      // System.out.println(food.get(i));
       // }
-      //ArrayList end
+      // ArrayList end
 
-
-      //2d ArrayList start
+      // 2d ArrayList start
       // ArrayList<ArrayList<String>> grocery = new ArrayList();
 
       // ArrayList<String> bakeryList = new ArrayList<String>();
@@ -194,11 +192,32 @@ public class JavaClass {
       // grocery.add(bakeryList);
       // grocery.add(productList);
 
-      
       // System.out.println(grocery);
 
-      //2d ArrayList end
+      // 2d ArrayList end
 
+      // for each start
+      // String[] animals = {"cats","dogs","lions"};
+
+      // for (String i : animals){
+      // System.out.println(i);
+      // }
+      // for each end
+
+      // overloaded method start
+      // create same name of method but different parameters is called overloaded
+      int sum = add(1, 2, 3);
+      System.out.println(sum);
+      // overloaded method end
 
    }
+   // overloaded method start
+   // static int add( int x, int y){
+   // return x+y;
+   // }
+   // static int add( int x, int y, int z){
+   // return x+y+z;
+   // }
+   // overloaded method end
+
 }
