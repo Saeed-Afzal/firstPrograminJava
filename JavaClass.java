@@ -244,6 +244,14 @@ public class JavaClass {
    // }
    // overloaded method end
 
+
+   //inheritance starts
+      Car car = new Car();
+      // car.go();
+
+   //inheritance end
+
+
 }
 // class MyCar {
 //    String make = "Honda";
@@ -253,3 +261,23 @@ public class JavaClass {
 
 //    }
 // }
+
+public class Vehicle {
+   double speed;
+
+
+   void go() {
+      System.out.println("You are moving");
+
+   }
+
+   
+   void stop() {
+      System.out.println("You are stopped");
+
+   }
+}
+
+class Car extends Vehicle{
+
+}
