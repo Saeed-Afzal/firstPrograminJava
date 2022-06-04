@@ -2,6 +2,7 @@ package firstPrograminJava;
 
 import javax.swing.JOptionPane; // use for GUI
 
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Random; // use for random number
 import java.util.Scanner; // use for input
@@ -230,6 +231,10 @@ public class JavaClass {
       // MyCar car1 = new MyCar();
 
       // System.out.println(car1.make);
+      int []arr = {1,2,3,4,5};
+ 
+      System.out.println(arr[2]);
+      System.out.println(arr[4]);
       // car1.drive();
       // mycar1.drive();
       // OOP intro end
@@ -247,6 +252,7 @@ public class JavaClass {
 
    //inheritance starts
       Car car = new Car();
+
       // car.go();
 
    //inheritance end
